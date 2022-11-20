@@ -1,0 +1,173 @@
+def menuiniciar1 (): #menu inicial do jogo
+    print('Digite: J- JOGAR | S- SAIR')
+    
+    print('\n\t\t╔═════════════╗')
+    print(  '\t\t║╔═╦══╦══╦═╦═╗║')
+    print(  '\t\t║║═╣╔╗║░░║╔╣║║║')
+    print(  '\t\t║║╔╣╚╝║╔╗╣╚╣╩║║')
+    print(  '\t\t║╚╝╚══╩╝╚╩═╩╩╝║')
+    print(  '\t\t╚═════════════╝')
+
+    print('\n\t\t   ╔╦═╦═╦═╦╦╗')
+    print(  '\t\t  ╔╝║║║╔╣╩║╔╝ - Digite "J"')
+    print(  '\t\t  ╚═╩═╩═╩╩╩╝')
+
+    print('\t\t   ╔══╦═╦╦╦╗')
+    print('\t\t   ╠╗╚╣╩║║╔╝ - Digite "S"')
+    print('\t\t   ╚══╩╩╩╩╝')    
+    
+def jogar1 ():
+    print('Digite: F- FÁCIL | M- MÉDIO | D- DIFÍCIL | X- MENU')
+    
+    print('\n\t\t╔══════════════╗')
+    print(  '\t\t║╔═╦══╦══╦═╦══╗║')
+    print(  '\t\t║╚╗║╔╗║╔═╣║║░░║║')
+    print(  '\t\t║╔╣║╚╝║╚╝║╩║╔╗╣║')
+    print(  '\t\t║╚═╩══╩══╩╩╩╝╚╝║')
+    print(  '\t\t╚══════════════╝')
+
+    print('\n\t\t   ╔═╦═╦═╦╦╗')
+    print(  '\t\t   ║╔╣╩║╠╣║╚╗ - Digite "F"')
+    print(  '\t\t   ╚╝╚╩╩═╩╩═╝')
+
+    print('\t\t  ╔══╦═╦═╦╦═╗')
+    print('\t\t  ║║║║╦╣╠║║║║ - Digite "M"')
+    print('\t\t  ╚╩╩╩═╩═╩╩═╝')
+
+    print('\t\t  ╔═╦╦═╦╦═╦╦╗')
+    print('\t\t  ║╠║║╔╣║╠╣║╚╗ - Digite "D"')
+    print('\t\t  ╚═╩╩╝╚╩═╩╩═╝')
+
+    print('\t\t  ╔══╦═╦═╦╦╗╔╗')
+    print('\t\t  ║║║║╦╣║║║╚╝║ - Digite "X"')
+    print('\t\t  ╚╩╩╩═╩╩═╩══╝')
+    
+def painel_facil ():
+    print('Digite: I- INICIAR | V- VOLTAR')
+    
+    print('\n\t\t╔══════════╗')
+    print(  '\t\t║╔═╦═╦═╦╦╗ ║')
+    print(  '\t\t║║═╣║║╔╣║║ ║')
+    print(  '\t\t║║╔╣╩║╚╣║╚╗║')
+    print(  '\t\t║╚╝╚╩╩═╩╩═╝║')
+    print(  '\t\t╚══════════╝')
+    
+    print('\n                ╔╦═╦╦╦═╦╦═╦╦╗')
+    print(  '                ║║║║║║╠╣║╩║╔╝ - Digite "i"')
+    print(  '                ╚╩╩═╩╩═╩╩╩╩╝')
+    
+    print('               ╔╦╦═╦╗╔══╦═╦╦╗')
+    print('               ║║║║║╚╬╗╔╣╩║╔╝')
+    print('               ╚═╩═╩═╝╚╝╚╩╩╝')
+    
+def painel_medio ():
+    print('Digite: I- INICIAR | V- VOLTAR')
+    
+    print('\n\t\t╔═════════════╗')
+    print(  '\t\t║╔══╦═╦═╗╔╦══╗║')
+    print(  '\t\t║║║║║═╣║╚╣║╔╗║║')
+    print(  '\t\t║║║║║═╣║╔╣║╚╝║║')
+    print(  '\t\t║╚╩╩╩═╩═╝╚╩══╝║')
+    print(  '\t\t╚═════════════╝')
+  
+    print('\n\t\t ╔╦═╦╦╦═╦╦═╦╦╗')
+    print(  '\t\t ║║║║║║╠╣║╩║╔╝ - Digite "i"')
+    print(  '\t\t ╚╩╩═╩╩═╩╩╩╩╝')
+
+    print('\t\t╔╦╦═╦╗╔══╦═╦╦╗')
+    print('\t\t║║║║║╚╬╗╔╣╩║╔╝ - Digite "v"')
+    print('\t\t╚═╩═╩═╝╚╝╚╩╩╝')     
+
+def painel_dificil ():
+    print('Digite: I- INICIAR | V- VOLTAR')
+    print('\n\t\t╔═════════════╗')   
+    print(  '\t\t║╔═╦╦╦═╦╦═╦╦╗ ║')
+    print(  '\t\t║║║╚╣║═╣║╔╣║║ ║')
+    print(  '\t\t║║║╔╣║╔╣║╚╣║╚╗║')
+    print(  '\t\t║╚═╝╚╩╝╚╩═╩╩═╝║')
+    print(  '\t\t╚═════════════╝')
+    
+    print('\n\t\t ╔╦═╦╦╦═╦╦═╦╦╗')
+    print(  '\t\t ║║║║║║╠╣║╩║╔╝ - Digite "i"')
+    print(  '\t\t ╚╩╩═╩╩═╩╩╩╩╝')
+    
+    print('\t\t╔╦╦═╦╗╔══╦═╦╦╗')
+    print('\t\t║║║║║╚╬╗╔╣╩║╔╝ - Digite "v"')
+    print('\t\t╚═╩═╩═╝╚╝╚╩╩╝')    
+     
+def painel_jogar ():
+    print('\n\t\t╔════════════════════════════════════════╗')   
+    print(      '║╔═╦═╦╦╗╔╦╦═╦╦╗╔╦═╦═╦═╦═╦═╦═╦╦╦═╦╗╔╦══╦═╗║')
+    print(      '║║║║║╚╣╚╝║║║║║╚╝║═╣ ║║║ ║░║║║║║║║╚╝║░░║║║║')
+    print(      '║║╩║║╔╩╗╔╣║║║║╔╗║═╣ ║╩║ ║╔╣╩║╚╣╩╠╗╔╣╔╗╣╩║║')
+    print(      '║╚╩╩═╝ ╚╝╚╩╩═╩╝╚╩═╝ ╚╩╝ ╚╝╚╩╩═╩╩╝╚╝╚╝╚╩╩╝║')
+    print(      '╚════════════════════════════════════════╝')
+    
+    
+
+entrar_jogo = input("Deseja abrir o jogo? ('s' ou 'n')\n ") #iniciar do jogo
+
+if entrar_jogo.lower() != 's' and entrar_jogo.lower() != 'n': #mensagem de erro para controle
+    while entrar_jogo.lower() != 's' and entrar_jogo.lower() != 'n':
+        print('Resposta inválida. Digite novamente!')
+        entrar_jogo = input("Deseja abrir o jogo? ('s' ou 'n')\n ")
+        
+if entrar_jogo.lower() == 's': #caso o usuário escolha iniciar o jogo 
+    funcao = 'X'
+    
+    if funcao.upper() == 'X':
+        while funcao.upper() == 'X':
+            menuiniciar1 ()
+    
+            funcao = input('O que deseja fazer?\n ')
+    
+            if funcao.upper() != 'J' and funcao.upper() != 'S': #mensagem de erro para controle
+                while funcao.upper() != 'J' and funcao.upper() != 'S':
+                    print('Resposta inválida. Digite novamente!')
+                    funcao = input('O que deseja fazer?\n ')
+                    
+            if funcao.upper() == 'J':
+                funcao = 'V'
+                
+                while funcao.upper() == 'V':
+                    jogar1 ()
+                    
+                    funcao = input('O que deseja fazer?\n ')
+                    
+                    if funcao.upper() != 'F' and funcao.upper() != 'M' and funcao.upper() != 'D' and funcao.upper() != 'X': #mensagem de erro para controle
+                        while funcao.upper() != 'F' and funcao.upper() != 'M' and funcao.upper() != 'D' and funcao.upper() != 'X':
+                            print('Resposta inválida. Digite novamente!')
+                            funcao = input('O que deseja fazer?\n ')
+                            
+                    if funcao.upper() == 'F':
+                        painel_facil()
+                    
+                        funcao = input('O que deseja fazer?\n ')
+                        if funcao.upper() != 'I' and funcao.upper() != 'V': #mensagem de erro para controle
+                            while funcao.upper() != 'I' and funcao.upper() != 'V': 
+                                print('Resposta inválida. Digite novamente!')
+                                funcao = input('O que deseja fazer?\n ')
+                                
+                    if funcao.upper() == 'M':
+                        painel_medio()
+                        
+                        funcao = input('O que deseja fazer?\n ')
+                        if funcao.upper() != 'I' and funcao.upper() != 'V': #mensagem de erro para controle
+                            while funcao.upper() != 'I' and funcao.upper() != 'V':
+                                print('Resposta inválida. Digite novamente!')
+                                funcao = input('O que deseja fazer?\n ')
+                                
+                    if funcao.upper() == 'D':
+                        painel_dificil()
+                        
+                        funcao = input('O que deseja fazer?\n ')
+                        if funcao.upper() != 'I' and funcao.upper() != 'V': #mensagem de erro para controle
+                            while funcao.upper() != 'I' and funcao.upper() != 'V':
+                                print('Resposta inválida. Digite novamente!')
+                                funcao = input('O que deseja fazer?\n ')
+                                
+            if funcao.upper() == 'S':
+                print('(ಥ﹏ಥ)')                    
+                            
+else: #caso o usuário não queira iniciar o jogo =(
+    print('(ಥ﹏ಥ)')
